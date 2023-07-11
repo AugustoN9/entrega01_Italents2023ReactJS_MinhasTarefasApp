@@ -1,0 +1,45 @@
+.cabecalho{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+  }
+
+.cabecalhoLogo{
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    width: 100%;
+    padding: 1rem auto;
+}
+
+.cabecalho h3{
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.cabecalhoUser{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    width: 100%;
+    background-color: darkblue;
+}
+
+.cabecalhoUser p{
+    padding: 0 1.5rem;
+    color: #FFF;
+    font-style: italic;
+}
+
+.cabecalhoUser button{
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: .5rem;
+    background: none;
+    font-family: 'Ubuntu';
+    color: #FFF;
+    font-size: 12px;
+
+}

@@ -1,0 +1,64 @@
+.ListaTarefas{
+    width: 100%;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px 0;
+
+}
+
+.Listatarefas__titulo{
+    font-weight: bold;
+    font-style: normal;
+    color: darkgreen;
+    text-align: center;
+}
+
+.Tarefas{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    width: 500px;
+    margin: 2rem 0 0 0 ;
+    padding: 0;
+}
+
+#novaTarefa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 24px;
+    padding: 5px 15px;
+    border: none;
+    border-bottom: 2px solid blue;
+}
+
+.btn-enviar{
+    width: 200px;
+    height: 25px;
+    padding: 5px 15px;
+    margin-top: 1rem;
+}
+
+#novaTarefa:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+@media(max-width:630px){
+    .ListaTarefas{
+        width: 80vh;
+    }
+    #novaTarefa{
+        width: 300px;
+        justify-content: center;
+        align-items: center;
+    }
+}

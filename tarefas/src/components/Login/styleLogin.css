@@ -1,0 +1,78 @@
+.container{
+    width: 100%;
+    min-width: 320px;
+    display: flex;
+    height: 100vh;
+    background-color: #e6e6e6;
+}
+
+.form-image{
+    width: 60%;
+    background-color: blueviolet;
+    background-image: url("../../image/fundo.svg");
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+}
+
+.form{
+    width: 50%;
+    margin-top: 5%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color: #e6e6e6;
+}
+
+.form img{
+    margin: 0;
+    padding: .5rem;
+    width: 180px;
+}
+
+.formularioLogin{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.formularioLogin input{
+    font-size: 24px;
+    border: 1px solid green;
+    border-radius: 8px;
+    padding: .4rem;
+}
+
+.formularioLogin input::placeholder{
+    font-weight: 100;
+    font-size: 1.1rem;
+    font-style: italic;
+    padding: .8rem;
+}
+
+.formularioLogin button{
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF;
+    border-radius: 8px;
+    border: none;
+    background-color: blueviolet;
+}
+
+@media(max-width:680px){
+    .form-image{
+        display: none;
+    }
+    .form{
+        width: 100%;
+    }    
+
+    .formularioLogin input, .formularioLogin button{
+        width: 100%;
+    }
+}
